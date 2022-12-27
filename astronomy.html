@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="./css/astronomy.css">
+
+<title>InfoHub</title>
+
+<!-- Inside the "About" page HTML -->
+<nav>
+  <ul>
+    <li><a href="index.html">Weather</a></li>
+    <li><a href="astronomy.html">Astronomy</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<h1>Astronomy</h1>
+
+<form id="astronomy-form">
+  <label for="location">Enter a Location:</label>
+  <input type="text" id="location" name="location">
+  <br>
+  <label for="date">Enter a Date:</label>
+  <input type="date" id="date" name="date">
+  <br>
+  <button type="submit">Search</button>
+</form>
+
+<div id="result">
+  <!-- here comes the api results -->
+</div>
+
+<div id="result2">
+  <!-- here come some of the results -->
+</div>
+
+<div id="result3">
+  <!-- here come some of the results -->
+</div>
+
+<div id="city-name">
+  <!-- City Name -->
+</div>
+
+<!-- Include a script to handle the form submission and make the API request -->
+<script src="./js/astronomy.js"></script>

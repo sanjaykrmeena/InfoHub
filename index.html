@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InfoHub</title>
+    <link rel="stylesheet" href="./css/weather.css">
+      
+  </head>
+  <body>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Weather</a></li>
+        <li><a href="astronomy.html">Astronomy</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+      
+    <h1>Weather</h1>
+    <form id="weather-form">
+      <label for="location">Enter a location:</label>
+      <input type="text" id="location" name="location">
+      <button type="submit">Get Weather</button>
+    </form>
+    
+    <div style="display: inline-flex;" id="main_id">
+        <img src="" alt="" id="img">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="weather-result">
+        <!-- This element will be used to display the weather data -->
+        </div>
+    </div>
+
+    <div id="extra-data">
+        <!-- Extra data -->
+    </div>
+
+    <div id="city-name">
+        <!-- City Name -->
+    </div>
+
+    <!-- Include a script to handle the form submission and make the API request -->
+    <script src="./js/weather.js"></script>
+  </body>
+</html>

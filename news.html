@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="./css/news.css">
+
+<title>InfoHub</title>
+
+<!-- Inside the "About" page HTML -->
+<nav>
+  <ul>
+    <li><a href="index.html">Weather</a></li>
+    <li><a href="astronomy.html">Astronomy</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+<h1>News</h1>
+
+<form id="news-form">
+  <label for="category">Select a news category:</label>
+  <select id="category" name="category">
+    <option value="general">General</option>
+    <option value="business">Business</option>
+    <option value="entertainment">Entertainment</option>
+    <option value="health">Health</option>
+    <option value="science">Science</option>
+    <option value="sports">Sports</option>
+    <option value="technology">Technology</option>
+  </select>
+  <button type="submit">Get News</button>
+</form>
+
+<div id="newsContainer"></div>
+
+<script src="./js/news.js"></script>

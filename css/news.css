@@ -1,0 +1,130 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: #f5f5f5;
+}
+
+nav {
+background-color: #00bfff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+height: 50px;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+font-size: 1.2em;
+}
+
+nav a:hover {
+color: #ccc;
+}
+
+h1 {
+color: #00bfff;
+margin: 20px 0;
+font-size: 2em;
+text-align: center;
+}
+
+form {
+max-width: 300px;
+margin: 20px auto;
+display: block;
+flex-direction: column;
+}
+
+label {
+font-size: 1.2em;
+}
+
+input[type="text"], input[type="date"], #category  {
+margin-top: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 1.2em;
+}
+
+button[type="submit"] {
+padding: 10px 20px;
+margin-top: 20px;
+border: none;
+border-radius: 4px;
+background-color: #00bfff;
+color: #fff;
+font-size: 1.2em;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #00a9e0;
+}
+
+
+/* Some basic styling for the form and results */
+
+#newsContainer {
+margin: 20px 0;
+}
+
+/* Style the news items as cards */
+.news-item {
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+margin: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 300px;
+}
+
+.news-item img {
+width: 100%;
+border-radius: 4px 4px 0 0;
+}
+
+.news-item .news-info {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px;
+width: 100%;
+}
+
+.news-item .news-info h3 {
+margin: 0;
+text-align: center;
+}
+
+.news-item .news-info p {
+margin: 0;
+font-size: 0.8em;
+text-align: center;
+}
+
+.news-item .news-info .author {
+font-style: italic;
+}
+
+.news-item .news-info .url {
+margin-top: 10px;
+}
+  
+
+  
