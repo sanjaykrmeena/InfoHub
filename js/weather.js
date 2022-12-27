@@ -15,7 +15,7 @@ form.addEventListener("submit", function(event) {
   var location = document.getElementById("location").value;
 
   // Make the API request to get the weather data
-  fetch("http://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=" + location, {
+  fetch("https://api.weatherapi.com/v1/current.json?key=" + API_KEY + "&q=" + location, {
       method: "GET",
       contentType: 'application/json'
     })
